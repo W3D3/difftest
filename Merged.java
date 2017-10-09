@@ -7,7 +7,7 @@ public class Merged {
     {
         for(int i = param1; i < param2; i++)
         {
-            Logger.log(i);
+            MasterChange.log(i);
         }
     }
 
