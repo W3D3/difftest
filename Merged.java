@@ -5,10 +5,15 @@ public class Merged {
 
     public static void conflictingMethod(int param1, int param2)
     {
+        if(param1 > param2) {
+            NewBranch.swap(param1, param2);
+        }        
         for(int i = param1; i < param2; i++)
         {
-            Logger.log(i);
+            NewBranch.operation(i);
         }
+        NewBranch.log("Operation done");
+        
     }
 
 }
