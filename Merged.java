@@ -11,6 +11,7 @@ public class Merged {
         for(int i = param1; i < param2; i++)
         {
             NewBranch.operation(i);
+            MasterChange.log(i);
         }
         NewBranch.log("Operation done");
         
