@@ -25,4 +25,13 @@
       <scope>idk</scope>
     </dependency>
   </dependencies>
+  
+  <dependencies>
+    <dependency>
+      <groupId>new</groupId>
+      <artifactId>freshdep</artifactId>
+      <version>1.2.3</version>
+      <scope>idk</scope>
+    </dependency>
+  </dependencies>
 </project>
