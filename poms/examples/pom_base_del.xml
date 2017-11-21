@@ -24,16 +24,6 @@
 				<artifactId>bla-plugin</artifactId>
 				<version>4.1</version>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<classifier>test</classifier>
-					<someThing>true</someThing>
-					<stopNow>false</stopNow>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
