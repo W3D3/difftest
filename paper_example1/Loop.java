@@ -5,12 +5,12 @@ public class Loop {
     }
 
     public reverseLoop() {
-        for(int i = this.arr.length - 1; i > 0; i--) {
-            System.out.println(this.arr[i]);
-        }
+        this.loopFromTo(arr.length, 0);
     }
 
     public loopFromTo(int x, int y) {
-        //TODO implement
+        for(int i = x; i > y; i--) {
+            System.out.println(this.arr[i]);
+        }
     }
 }
