@@ -4,13 +4,14 @@ public class Loop {
         this.arr = arr;
     }
 
-    public reverseLoop() {
-        this.loopFromTo(arr.length, 0);
-    }
-
-    public loopFromTo(int x, int y) {
-        for(int i = x; i > y; i--) {
+    public void doSomething() {
+        System.out.println("Array printed in reverse:");
+        for(int i = this.arr.length - 1; i > 0; i--) {
             System.out.println(this.arr[i]);
         }
+    }
+
+    private void loopReverse() {
+        //TODO implement
     }
 }
