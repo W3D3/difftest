@@ -44,12 +44,12 @@ public class Sorting {
         Sorting.bubbleSort(this.arr);
 
         if (verbose) System.out.println("Array printed in reverse:");
-        for (int i = this.arr.length - 1; i > 0; i--) {
-            System.out.println(this.arr[i]);
-        }
+        loopReverse();
     }
 
     private void loopReverse() {
-        //TODO implement
+        for (int i = this.arr.length; i > 0; i--) {
+            System.out.println(this.arr[i]);
+        }
     }
 }
