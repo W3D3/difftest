@@ -1,4 +1,6 @@
 public class Sorting {
+    
+    int[] arr;
 
     public Sorting(int[] arr) {
         this.arr = arr;
